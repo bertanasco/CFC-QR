@@ -1,82 +1,16 @@
-# CFC-QR
-                                                                                                    
-                                                                                                    
-                                                                                                    
-                                                          *+                                        
-                                                           %%%%                                     
-                                                            %*#%+    %%                             
-                                                 #%%%-      %# %#   *%%%                            
-                                                 %##%-     %%  #%%%%%# #%                           
-                                               +%%%%%-    +%     *##*   %+                          
-                                              *%% %%%-     %%#      #%##%                           
-                                              %%* %%%-      #%%     %#+                             
-                                              %%* %%%-     #%%      +%%%%%#                         
-                                              %%* %%%-     %%#%%%     %%%%%#                        
-                                              %%* %%%-      #%% %+  +%#                             
-                                    ###########%###%%*############%%##                              
-                                   %%%%%%%%%%%%#%%###%%%%%%%%%%%%#%                                 
-                                  #%*###########  %%%*#########*#%#                                 
-                          *%##%%%%##%%%%%%%%%%%%+ %%#%%%%%%%%%%%%#%%%##%#                           
-                       %#%%############%%%*   #%+ %%%-  +%%%############%%#%                        
-                     +%%%%#+##%#%%##%%*       #%+ %%%=      *%%##%**%%%=#%%#%#                      
-                   +%%%%##%%%% %%#%%#         #%+ %%%=        #%%#%%#%#%%@ %%%%%                    
-                  %%%%  %%%% *%#%%#           #%+ %%%=          #%%#%# #%%%  %%%%                   
-                 #%%#  #%%+ +%#%%             #%+ %%%=            #%#%#  %%%  #%%%                  
-                #%%#  #%%   %#%#              #%+ %%%=             #%#%   %%%   %%#                 
-                %#%   %%+  =%#%               #%+ %%%=              %#%*   %%*  %%%+                
-               #%%*  #%%   #%%*               #%+ %%%=              =%#%   %#%   %#%                
-               %#%=  %#%   %#%=               #%+ %%%=               %#%   #%%   %#%                
-               %#%=  %#%   %%%-               #%+ %%%=               %#%   %%%   %#%                
-               #%%#  %%%   *%%*               #%+ %%%=              +%%#   %#%  *%#%                
-                %#%  =%%#   %#%               #%+ %%%=              %#%   *%%#  %#%+                
-                *%#%  %%%#  +%%%              #%+ %%%=             #%%#  *%#%  %%%#                 
-                 #%%%+ %#%#  #%%%             #%+ %%%=            #%%%  #%#%  %%%%                  
-                  #%#%%+%%%%# #%%%#           #%+ %%%=          #%%%% *%%%% %%#%%                   
-                    %%%%#*%#%%%*%%%%#         #%+ %%%=        #%%%%%#%%##%%%%%%                     
-                      #%#%####%%##%#%%#%      #%+ %%%=     ##%%#%##%%####%#%%                       
-                         *%%%##########%%%*   #%+ %%%-  +%%%###########%%#                          
-                            %%##%%#%%%%%%%%%%%%%+ %%#%%%%%%%%%%%%%%##%%                             
-                                       ++*#%%%#%+ %%%*%%##*+=                                       
-                                              *%+ %%%-                                              
-                                              *%# %%%-                                              
-                                               +%%#%%-                                              
-                                                  ***                                               
-                                                                                                    
-        *%# #%%%  #+    *%##+  #    *%%  #%%   #%%%% %%%# %%%%    #%%##%  %*#%%%# #%  #%% %%%%#     
-       %%%%%%%%%% %% %% %%%%%%%%=  #%%%#%%%%   %%%%#%%%%%+%#%%%  *%%%#%% *%%%%##%=%%-%%%###%%%%     
-      #%  +%    %=%% #% %#  %%#%= *%*  %*      %#  %*   +### %*  %%   %% -%%%% #% #%+%    =%%       
-      %*  %%   -%#%+ +% %% %% *%= %##% %%#    @%#@%%-   %+%#%*   %*  #%#%%%%%%*%  #%+%%#  =%%       
-     +@-  %%   %#%%  *% %##%  *%= #%#% %%%%#   %%  %+   % %*%%   %*  %%%#*%%%%*%= #%-#%%%%=%%       
-     *%-  #%  #% %%  %% #%    *%= %%     #%%   %%  %#  %% %##%*  %%   %% -%%%% %% #%-   #%=%%       
-     +%#%#*%##%# %% *%% %%    *%- %%%%#%*#%#   %%  %%##%  %% %%  %%#% %% -%%%% #%##% %#+#%=%%       
-      %#%  %%%%  #%%%#% #%=   *%#%#%%*#%%%#    %%  *%%%#  %# +%% *%%# %%  # %%  %%*% %%%% =@#       
-                                               ##             %*                 %=                 
-                                                                                                    
-                                                                                                    
-                                                                                                    
+# cfc_qr
 
-WIP CF QR code reader
+A new Flutter project.
 
-MVP Phase
-1. Read a QR value
-2. Generate SQLite from a fixed file path
-3. Search SQLite DB for a match given the QR image value
-4. Create a new CSV from the match
+## Getting Started
 
+This project is a starting point for a Flutter application.
 
-Phase 1
-1. Able to create new events
+A few resources to get you started if this is your first Flutter project:
 
-Phase 2 
-2. Able to import csv file as new DB
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-Phase 3
-3. Automatic import to CFC OGD(If API exists)
-
-
-
-TODO
-1. Set-up repo [DONE]
-2. Flutter skeleletton project that reads QR image
-3. Search flutter package that reads excel files and 
-
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
