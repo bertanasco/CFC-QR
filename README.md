@@ -57,8 +57,26 @@
 
 WIP CF QR code reader
 
-Plan is
-1. Skeleton Flutter App that scans a QR code to get the CFC member ID
-2. Match the member ID from a list of values inside an excel file(?)
-3. Create an excel file that would store the member ID values (importable in CFC OGD)
+MVP Phase
+1. Read a QR value
+2. Generate SQLite from a fixed file path
+3. Search SQLite DB for a match given the QR image value
+4. Create a new CSV from the match
+
+
+Phase 1
+1. Able to create new events
+
+Phase 2 
+2. Able to import csv file as new DB
+
+Phase 3
+3. Automatic import to CFC OGD(If API exists)
+
+
+
+TODO
+1. Set-up repo [DONE]
+2. Flutter skeleletton project that reads QR image
+3. Search flutter package that reads excel files and 
 
